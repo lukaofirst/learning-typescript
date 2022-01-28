@@ -1,6 +1,8 @@
 /* --- Type Guards --- */
 
+// Code pattern where you can check for a certain type before you try to do something with it at runtime
 // It's kind of a sanity check with if's, if we're using union types
+
 // With union types, we generally use 'typeof' operator
 // With classes, we use 'instanceof' operator
 
